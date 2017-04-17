@@ -1,7 +1,7 @@
 # test coverage for  [antd (v2.9.1)](http://ant.design/)  [![npm package](https://img.shields.io/npm/v/npmtest-antd.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-antd) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-antd.svg)](https://travis-ci.org/npmtest/node-npmtest-antd)
 #### An enterprise-class UI design language and React-based implementation
 
-[![NPM](https://nodei.co/npm/antd.png?downloads=true)](https://www.npmjs.com/package/antd)
+[![NPM](https://nodei.co/npm/antd.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/antd)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-antd/tree/alpha)|
 |--:|:--|
@@ -9,11 +9,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-antd/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-antd/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-antd/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-antd/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-antd/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-antd/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-antd/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-antd/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-antd/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-antd%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-antd/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-antd/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-antd/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-antd/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-antd%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-antd/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-antd/build/test-report.html](https://npmtest.github.io/node-npmtest-antd/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-antd/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-antd/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-antd/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-antd/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-antd/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-antd/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-antd/build/screenCapture.npmPackageListing.svg)
 
@@ -221,8 +227,7 @@
     "main": "lib/index.js",
     "maintainers": [
         {
-            "name": "benjycui",
-            "email": "benjytrys@gmail.com"
+            "name": "benjycui"
         }
     ],
     "name": "antd",
@@ -230,7 +235,6 @@
     "pre-commit": [
         "lint-staged"
     ],
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/ant-design/ant-design.git"
